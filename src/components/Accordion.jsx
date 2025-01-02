@@ -9,7 +9,6 @@ const Accordion = ({ faqs }) => {
         <div key={faq.title}>
           <Item
             number={index < 9 ? `0 ${index + 1}` : `${index + 1}`}
-            text={faq.text}
             title={faq.title}
             currentOpen={currentOpen}
             setCurrentOpen={setCurrentOpen}
